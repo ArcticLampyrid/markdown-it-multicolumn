@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-multicolumn",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "MultiColumn plugin for markdown-it.",
   "main": "dist/src/index.js",
   "repository": "git@github.com:1354092549/markdown-it-multicolumn.git",

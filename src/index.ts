@@ -15,7 +15,7 @@ function render(tokens: Token[], index: number, options: any, env: any, self: Re
             break;
         case "multicolumn_block_open":
             tokens[index].attrJoin("class", "multicolumn-column");
-            tokens[index].attrJoin("style", `flex-grow: ${(tokens[index].meta as BlockTokenMeta).growth};`);
+            tokens[index].attrJoin("style", `flex-grow: ${(tokens[index].meta as BlockTokenMeta).growth}; width:0;`);
             break;
     }
     return (self as any).renderToken(tokens, index, options, env, self);
